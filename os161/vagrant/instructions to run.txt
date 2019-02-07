@@ -1,0 +1,28 @@
+if closed, navigate to this folder and run:
+
+vagrant ssh
+sys161          is the password
+
+cd ~/src/os161/kern/conf
+./config ASST1           when downloading new source tree or add files by editting kern/conf/conf.kern
+cd ../compile/ASST1
+bmake depend             makes sure headers included    if reconfigured kernel?
+
+                         generally need to redo these 2.
+bmake                    generates kernel binary
+bmake install            installs kernel into root directory defined in config.
+
+
+
+
+
+
+
+
+after changing os, navigate to ~/os161/root and run
+sys161 kernel
+ 
+
+find ./ -name fileName
+grep -rnwi -e 'stringtofind'
+grep -r 'stringtofind' ~/
